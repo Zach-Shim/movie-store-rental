@@ -1,0 +1,19 @@
+1. Look at the parent/ancestor class of specific movies. Is there a virtual (or pure virtual) function for implementing operator< and operator== ? If not, is there a similar virtual function that might be used to implement operator< and operator== ?
+2. a) Are the different movies stored in different containers?
+   b) What class holds that container?
+   c) How are the movies kept sorted in that container?
+   d) Are the "movie containers" themselves inside another container? e) How is the specific "movie container" found or chosen?
+3. What is stored in their hash table (the one implemented from scratch)? What class is it in? If more than one, pick one.
+4. Describe as specifically as possible how a Classics movie is read and stored. Depending on the design, you might be able to list the sequence of functions called, or might have a more abstract description. If the Classics movie format was changed to have the release date include day month and year, what class/function will need to be changed?
+5. Describe as specifically as possible how a Borrow command is read and executed. Depending on the design, you might be able to list the sequence of functions called, or might have a more abstract description.
+6. List any questions/clarifications you asked the designers and give their responses/clarifications.
+7. Overall, is the design clear? Complete? Missing classes? What would you need to take this design and implement the project?
+
+- Can your design be extended beyond the specifications given here?
+- Could you easily add new videos or DVDs to your design?
+- Can you easily add other categories of videos or DVDs?
+- Could you easily add new categories of media to your design, for example, music?
+- Could you expand to check out other kinds of items, for example VCRs or DVD players?
+- Could you easily add new operations to your design?
+- Could you incorporate time, for example, a due date for borrowed items?
+- Could you easily add an additional store, or handle a chain of stores?
